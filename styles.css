@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.header-top {
+  background: linear-gradient(to right, #0170b3, #211a3c);
+  color: #fff;
+  margin: 0;
+}
+
+.contact-info {
+  display: flex;
+  padding: 12px;
+  margin-bottom: 0;
+}
+
+.contact-info li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+ul li {
+  margin-right: 2rem;
+  list-style: none;
+  font-size: 0.85rem;
+}
+
+span {
+  margin-right: 0.5rem;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar {
+  background: #fff !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.nav-link {
+  line-height: 1rem;
+}
+
+.nav-item .nav-link {
+  font-weight: 550;
+  font-size: 1rem;
+  color: #000;
+}
+
+/* carousel */
+
+.d-block {
+  height: 460px !important;
+}
+
+
+/* about section */
+
+#about{
+  padding: 60px 0;
+}
+
+.heading-about{
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.name{
+  color: #0170b3;
+}
+
+.para-about{
+  line-height: 1.65rem;
+}
+
+.img-about{
+  margin-top: 3rem;
+}
