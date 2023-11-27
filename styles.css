@@ -59,23 +59,59 @@ span {
 
 /* about section */
 
-#about{
+#about {
   padding: 60px 0;
 }
 
-.heading-about{
+.heading-about {
   font-weight: 600;
   margin-bottom: 2rem;
 }
 
-.name{
+.name {
   color: #0170b3;
 }
 
-.para-about{
+.para-about {
   line-height: 1.65rem;
 }
 
-.img-about{
+.img-about {
   margin-top: 3rem;
+}
+
+
+/* solution */
+
+#solution {
+  background-image: url(https://www.kshitiztech.com/images/bg/bg1.jpg);
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.solution-heading {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.bg-white {
+  padding: 70px 50px;
+}
+
+.card-body a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card-title {
+  font-weight: 750;
+}
+
+.card-img-top {
+  width: 6rem !important;
+  margin: 0 auto;
+}
+
+.card {
+  border: none !important;
 }
