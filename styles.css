@@ -89,6 +89,14 @@ span {
   padding: 40px 0;
 }
 
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-menu .dropdown-item {
+  margin-bottom: 0.75rem;
+}
+
 .solution-heading {
   font-weight: 600;
   margin-bottom: 2rem;
@@ -114,4 +122,103 @@ span {
 
 .card {
   border: none !important;
+}
+
+
+/* footer styles starts here */
+
+.footer {
+  color: #fff;
+  padding: 60px 0;
+  background: linear-gradient(to right, #0170b3, #211a3c);
+  border-radius: 200px 0px 0px 0px;
+}
+
+.footer-heading {
+  font-weight: 700;
+}
+
+.text-grey {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-para {
+  line-height: 1.75rem;
+  margin-bottom: 0;
+}
+
+.social-icons {
+  margin-left: 35px;
+}
+
+.footer-li {
+  font-size: 1rem;
+}
+
+.footer-ul {
+  margin-left: -30px;
+}
+
+.last-footer {
+  border-top: 1px dotted #dbdbdb;
+  background: linear-gradient(to right, #0170b3, #211a3c);
+  color: #fff;
+  padding: 15px 0;
+}
+
+.copy-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+
+
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.circles {
+  position: relative;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.circles-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.circles-item {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  animation: moveUp 5s linear infinite;
+}
+
+.circles-item:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  bottom: 0;
+  animation-delay: 0s;
+}
+
+.circles-item:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
 }
