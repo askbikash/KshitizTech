@@ -10,35 +10,41 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <style>
-    .contact-hero {
-      background-image: url(https://www.kshitiztech.com/images/about/contact-banner.jpg);
-      background-size: cover;
+    .rental {
+      padding: 50px 0;
     }
 
-    .about-heading {
-      padding: 130px 100px;
+    .rental-img{
+      width: 100%;
     }
 
-    .contact-details {
-      padding: 90px 0;
+    .card {
+      background: linear-gradient(to right, #0170b3, #211a3c);
+      color: #fff;
+      padding: 10px 10px;
     }
 
-    .about-icons {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-      background-color: rgb(38, 74, 231);
+    .btn-primary {
+      background: #fff;
+      color: #000;
     }
 
-    .contact-icons {
-      font-size: 25px;
+    .btn-primary:hover {
+      background: #fff;
+      color: #000;
     }
 
-    .contact {
-      display: flex;
+    .card-text {
+      padding: 10px 0;
+      font-size: 0.85rem;
+    }
+
+    .it-list li {
+      list-style-type: disc;
+    }
+
+    .rentalTwo{
+      padding: 30px 0;
     }
   </style>
 </head>
@@ -81,7 +87,7 @@
                   Our Solution
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="IT-Rental.html">IT Rental</a></li>
+                  <li><a class="dropdown-item" href="#">IT Rental</a></li>
                   <li><a class="dropdown-item" href="#">Comprehensive AMC</a></li>
                   <li><a class="dropdown-item" href="#">Material Sourcing and installation</a></li>
                   <li><a class="dropdown-item" href="#">Networking</a></li>
@@ -98,91 +104,76 @@
       </nav>
     </header>
 
-    <section class="contact-hero">
+    <section class="rental">
       <div class="container">
         <div class="row">
-          <h2 class="about-heading text-white">Contact Us</h2>
-        </div>
-    </section>
-
-    <section class="contact-details">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-12">
-            <div class="contact">
-              <div class="about-icons">
-                <i class="fa-solid fa-location-dot contact-icons" style="color: #ffffff;"></i>
-              </div>
-              <div class="contact-info">
-                <p class="footer-address">
-                  <strong>Kshitiz Technology</strong><br>
-                  301, Sheetla House,
-                  Building No 73-74 <br> Nehru place
-                  New Delhi-110019
-                </p>
-              </div>
-            </div>
-            <hr>
-            <div class="contact">
-              <div class="about-icons">
-                <i class="fa-solid fa-mobile-screen contact-icons" style="color: #ffffff;"></i>
-              </div>
-              <div class="contact-info">
-                <p class="footer-address">
-                  <strong>Mobile No.</strong><br>
-                  +91-11-42875046
-                </p>
-              </div>
-            </div>
-            <hr>
-            <div class="contact">
-              <div class="about-icons">
-                <i class="fa-solid fa-phone contact-icons" style="color: #ffffff;"></i>
-              </div>
-              <div class="contact-info">
-                <p class="footer-address">
-                  <strong>Tel. No.</strong><br>
-                  +91-8175086889, 9599812012
-                </p>
-              </div>
-            </div>
-            <hr>
-            <div class="contact">
-              <div class="about-icons">
-                <i class="fa-solid fa-envelope contact-icons" style="color: #ffffff;"></i>
-              </div>
-              <div class="contact-info">
-                <p class="footer-address">
-                  <strong>E-mail</strong><br>
-                  info@kshitiztech.com
-                </p>
-              </div>
-            </div>
-            <hr>
+          <div class="col-lg-8 col-12">
+            <img class="rental-img" src="Images/it-rental.jpg" alt="">
           </div>
-          <div class="col-lg-6 col-12">
-            <div style="text-decoration:none; overflow:hidden;max-width:100%;width:100%;height:100%;">
-              <div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
-                  style="height:100%;width:100%;border:0;" frameborder="0"
-                  src="https://www.google.com/maps/embed/v1/place?q=Kshitiz+Technology,+Nehru+Place,+New+Delhi,+Delhi,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-              </div><a class="embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="auth-map-data">premium
-                bootstrap themes</a>
-              <style>
-                #my-map-canvas img.text-marker {
-                  max-width: none !important;
-                  background: none !important;
-                }
-
-                img {
-                  max-width: none
-                }
-              </style>
+          <div class="col-lg-4 col-12">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">How can we help you ?</h5>
+                <p class="card-text">We can help you providing end-to-end solution as per your requirements. Consult our
+                  experts to know more.</p>
+                <a href="contact.html" class="btn btn-primary"><i class="fa-solid fa-phone" style="color: #0f264d;"></i>
+                  CONTACT US</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <div class="rentalTwo">
+      <div class="container">
+        <div class="col-lg-12">
+          <h4 class="name"> <strong>IT RENTAL</strong></h4>
+          <p>IT Rental services are now easy to find in your city. Ranging from computer assets to the peripherals, we
+            are
+            here to give you our best IT solutions. Whether you are in the need for any kind of IT related services, we
+            will give you everything. We have a great network in the field of Internet technology. With this huge
+            network,
+            we are able to develop the most wanted IT rental services in Delhi/NCR. We also have a team of highly
+            skilled
+            individuals who are always ready to serve you with the desired solutions. By using our world-class
+            strategies,
+            we will give you the highly demanded services on the most affordable prices. We have the services for all
+            type
+            of your needs. Some of our offerings for IT rental services are as follows:-</p>
+          <ul class="it-list">
+            <li>Laptops and Desktop</li>
+            <li>Network Devices</li>
+            <li>Printers and Scanner</li>
+            <li>Storage</li>
+            <li>Server</li>
+            <li>Power Back-up Systems etc.</li>
+          </ul>
+          <p>With our versatile approach towards our work, we are enabling the business to get the best results from
+            these huge resources. We are always ready to give you high-notch services for every type of business. We
+            have served hundreds of clients with our IT rental services in Delhi, Gurugram and NCR. All of them are
+            highly satisfied with our services. We promise to give you the best quality products which will be highly
+            authentic. We only deal with brands. Our high-quality IT rental services in Delhi/NCR are developed using
+            the best strategies. So, we can guarantee you the smooth working of each system.
+          </p>
+          <strong>Benefits of using our IT rental services</strong>
+          <p>As we discussed earlier, we are highly appreciated by our clients for our previous works. We are able to do
+            it by using our best methodologies. Some of the benefits of using our IT rental services in Delhi and NCR
+            are as follows:-</p>
+          <ul class="it-list">
+            <li>We provide fast and reliable Installation services</li>
+            <li>High-end Support and Maintenance</li>
+            <li>Any work ranging from small to huge projects</li>
+            <li>We are able to install complex networks easily for various works</li>
+            <li>Most affordable rental plans according to your budgets</li>
+            <li>Regular updates for the latest technologies</li>
+          </ul>
+          <p>If you choose us, we will make sure to give you the assets which can actually improve your productivity. We
+            will promote your work rates to their highest limits. We know how much IT systems are important in today's
+            world. That is why we have the latest strategies for these crucial implementations. Because of these
+            reasons, we are now one of the best IT rental services in Delhi and NCR.</p>
+        </div>
+      </div>
+    </div>
 
     <footer class="footer">
       <div class="container">
