@@ -53,7 +53,7 @@ span {
 /* carousel */
 
 .d-block {
-  height: 460px !important;
+  height: 460px;
 }
 
 
@@ -189,13 +189,12 @@ span {
   }
 }
 
-.circles {
+/* .circles {
   position: relative;
   height: 200px; /* Adjust the height as needed */
-  overflow: hidden;
-}
+/* } */
 
-.circles-list {
+/* .circles-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -221,4 +220,15 @@ span {
   width: 20px;
   height: 20px;
   animation-delay: 2s;
+} */
+
+@media(max-width:800px) {
+  .d-block {
+    height: 260px;
+  }
+
+  .footer{
+    border-radius: 100px 0 0 0;
+  }
 }
+
