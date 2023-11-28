@@ -184,6 +184,7 @@ span {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-100%);
   }
@@ -227,8 +228,11 @@ span {
     height: 260px;
   }
 
-  .footer{
+  .footer {
     border-radius: 100px 0 0 0;
   }
-}
 
+  .card {
+    margin-top: 20px;
+  }
+}
