@@ -11,7 +11,7 @@ body {
 
 .contact-info {
   display: flex;
-  padding: 12px;
+  padding: 8px;
   margin-bottom: 0;
 }
 
@@ -47,7 +47,7 @@ span {
 .nav-item .nav-link {
   font-weight: 550;
   font-size: 1rem;
-  color: #000;
+  color: #003265;
 }
 
 /* carousel */
@@ -66,10 +66,14 @@ span {
 .heading-about {
   font-weight: 600;
   margin-bottom: 1rem;
+  border-bottom: 4px double #000;
+  /* margin: 20px 0px 20px 0px; */
+  padding-bottom: 15px;
+  color: #003265;
 }
 
 .name {
-  color: #0170b3;
+  color: #003265;
 }
 
 .para-about {
@@ -103,7 +107,7 @@ span {
 }
 
 .bg-white {
-  padding: 70px 50px;
+  padding: 70px 20px;
 }
 
 .card-body a {
@@ -116,7 +120,7 @@ span {
 }
 
 .card-img-top {
-  width: 6rem !important;
+  width: 12rem !important;
   margin: 0 auto;
 }
 
@@ -234,5 +238,52 @@ span {
 
   .card {
     margin-top: 20px;
+  }
+}
+
+
+/* our clients section */
+
+.ourclient {
+  padding: 60px 0;
+}
+
+.container {
+  overflow: hidden;
+
+  .slider {
+    animation: slidein 20s linear infinite;
+    white-space: nowrap;
+
+    .logos {
+      width: 100%;
+      display: inline-block;
+      margin: 0px 0;
+
+      .fab {
+        width: calc(100% / 7);
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
