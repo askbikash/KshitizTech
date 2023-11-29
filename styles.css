@@ -229,7 +229,7 @@ span {
 
 @media(max-width:800px) {
   .d-block {
-    height: 260px;
+    height: 210px;
   }
 
   .footer {
