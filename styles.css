@@ -53,7 +53,7 @@ span {
 /* carousel */
 
 .d-block {
-  height: 460px;
+  height: 540px;
 }
 
 
@@ -67,7 +67,6 @@ span {
   font-weight: 600;
   margin-bottom: 1rem;
   border-bottom: 4px double #000;
-  /* margin: 20px 0px 20px 0px; */
   padding-bottom: 15px;
   color: #003265;
 }
