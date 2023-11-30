@@ -150,7 +150,7 @@ span {
 .footer {
   color: #fff;
   padding: 60px 0;
-  background: linear-gradient(to right, #0170b3, #211a3c);
+  background-image: url(Images/footer-bg.jpg);
   border-radius: 200px 0px 0px 0px;
 }
 
@@ -180,9 +180,14 @@ span {
   margin-left: -30px;
 }
 
+.footer-ul .footer-li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
 .last-footer {
   border-top: 1px dotted #dbdbdb;
-  background: linear-gradient(to right, #0170b3, #211a3c);
+  background-image: url(Images/footer-bg1.jpg);
   color: #fff;
   padding: 15px 0;
 }
