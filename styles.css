@@ -41,6 +41,22 @@ span {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 }
 
+.dropdown-menu {
+  background: #003265;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #fff;
+  font-weight: 600;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background: #fff;
+  color: #003265;
+  font-weight: 600;
+}
+
+
 .nav-link {
   line-height: 1rem;
 }
@@ -53,9 +69,9 @@ span {
 
 /* carousel */
 
-.d-block {
+/* .d-block {
   height: 540px;
-}
+} */
 
 
 /* about section */
