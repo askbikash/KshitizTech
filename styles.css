@@ -4,9 +4,10 @@ body {
 }
 
 .header-top {
-  background: linear-gradient(to right, #0170b3, #211a3c);
-  color: #fff;
+  background: #fff;
+  color: #003265;
   margin: 0;
+  border-bottom: 1px solid #a5b0bb;
 }
 
 .contact-info {
@@ -17,8 +18,8 @@ body {
 
 .contact-info li a {
   text-decoration: none;
-  color: #fff;
-  font-size: 0.85rem;
+  color: #003265;
+  font-size: 0.9rem;
 }
 
 ul li {
