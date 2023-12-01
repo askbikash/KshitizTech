@@ -42,18 +42,17 @@ span {
 }
 
 .dropdown-menu {
-  background: #003265;
+  background: #fff;
 }
 
 .dropdown-menu .dropdown-item {
-  color: #fff;
-  font-weight: 600;
+  color: #003265;
+  font-weight: 400;
 }
 
 .dropdown-menu .dropdown-item:hover {
   background: #fff;
   color: #003265;
-  font-weight: 600;
 }
 
 
