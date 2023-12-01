@@ -51,8 +51,8 @@ span {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background: #fff;
-  color: #003265;
+  background: #003265;
+  color: #fff;
 }
 
 
