@@ -4,8 +4,8 @@ body {
 }
 
 .header-top {
-  background: #fff;
-  color: #003265;
+  background: linear-gradient(to right, #0170b3, #211a3c);
+  color: #fff;
   margin: 0;
   border-bottom: 1px solid #a5b0bb;
 }
@@ -18,7 +18,7 @@ body {
 
 .contact-info li a {
   text-decoration: none;
-  color: #003265;
+  color: #fff;
   font-size: 0.9rem;
 }
 
@@ -83,7 +83,7 @@ span {
 .heading-about {
   font-weight: 600;
   margin-bottom: 1rem;
-  border-bottom: 4px double #000;
+  /* border-bottom: 4px double #000; */
   padding-bottom: 15px;
   color: #003265;
 }
@@ -150,7 +150,7 @@ span {
 .footer {
   color: #fff;
   padding: 60px 0;
-  background-image: url(Images/footer-bg.jpg);
+  background: linear-gradient(to right, #0170b3, #211a3c);
   border-radius: 200px 0px 0px 0px;
 }
 
@@ -187,7 +187,7 @@ span {
 
 .last-footer {
   border-top: 1px dotted #dbdbdb;
-  background-image: url(Images/footer-bg1.jpg);
+  background: linear-gradient(to right, #0170b3, #211a3c);
   color: #fff;
   padding: 15px 0;
 }
